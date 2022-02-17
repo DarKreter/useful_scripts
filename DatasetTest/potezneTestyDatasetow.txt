@@ -1,0 +1,500 @@
+small -> 3,7GB 	 1032  files
+many1 -> 1,06GB  11263 files
+many2 -> 9,25GB  24296 files
+big	  -> 30,03GB 1	   file
+
+
+Compression:	off
+Encryption:	off
+Dedup:		off
+RecordSize:	128K
+
+  small:
+          Speed   161 MB/s
+          Time    23 s
+          Ratio   1.00x
+  many1:
+          Speed   128 MB/s
+          Time    8 s
+          Ratio   1.00x
+  many2:
+          Speed   203 MB/s
+          Time    46 s
+          Ratio   1.00x
+  big:
+          Speed   177 MB/s
+          Time    175 s
+          Ratio   1.00x
+
+
+off
+Compression:	lzjb
+Encryption:	off
+Dedup:		off
+RecordSize:	128K
+
+  small:
+          Speed   168 MB/s
+          Time    22 s
+          Ratio   1.01x
+  many1:
+          Speed   128 MB/s
+          Time    8 s
+          Ratio   1.72x
+  many2:
+          Speed   208 MB/s
+          Time    45 s
+          Ratio   1.09x
+  big:
+          Speed   185 MB/s
+          Time    167 s
+          Ratio   1.00x
+
+
+lzjb
+Compression:	gzip
+Encryption:	off
+Dedup:		off
+RecordSize:	128K
+
+  small:
+          Speed   143 MB/s
+          Time    26 s
+          Ratio   1.02x
+  many1:
+          Speed   115 MB/s
+          Time    9 s
+          Ratio   2.08x
+  many2:
+          Speed   147 MB/s
+          Time    64 s
+          Ratio   1.10x
+  big:
+          Speed   172 MB/s
+          Time    180 s
+          Ratio   1.00x
+
+
+gzip
+Compression:	zle
+Encryption:	off
+Dedup:		off
+RecordSize:	128K
+
+  small:
+          Speed   161 MB/s
+          Time    23 s
+          Ratio   1.00x
+  many1:
+          Speed   128 MB/s
+          Time    8 s
+          Ratio   1.05x
+  many2:
+          Speed   184 MB/s
+          Time    51 s
+          Ratio   1.10x
+  big:
+          Speed   180 MB/s
+          Time    172 s
+          Ratio   1.00x
+
+
+zle
+Compression:	lz4
+Encryption:	off
+Dedup:		off
+RecordSize:	128K
+
+  small:
+          Speed   168 MB/s
+          Time    22 s
+          Ratio   1.01x
+  many1:
+          Speed   146 MB/s
+          Time    7 s
+          Ratio   1.84x
+  many2:
+          Speed   191 MB/s
+          Time    49 s
+          Ratio   1.10x
+  big:
+          Speed   180 MB/s
+          Time    172 s
+          Ratio   1.00x
+
+
+lz4
+Compression:	zstd
+Encryption:	off
+Dedup:		off
+RecordSize:	128K
+
+  small:
+          Speed   168 MB/s
+          Time    22 s
+          Ratio   1.02x
+  many1:
+          Speed   168 MB/s
+          Time    6 s
+          Ratio   2.06x
+  many2:
+          Speed   208 MB/s
+          Time    45 s
+          Ratio   1.10x
+  big:
+          Speed   183 MB/s
+          Time    169 s
+          Ratio   1.00x
+
+
+Compression:	on
+Encryption:	off
+Dedup:		off
+RecordSize:	128K
+
+  small:
+          Speed   155 MB/s
+          Time    24 s
+          Ratio   1.01x
+  many1:
+          Speed   146 MB/s
+          Time    7 s
+          Ratio   1.84x
+  many2:
+          Speed   184 MB/s
+          Time    51 s
+          Ratio   1.10x
+  big:
+          Speed   171 MB/s
+          Time    181 s
+          Ratio   1.00x
+
+
+Compression:	zstd-fast-1000
+Encryption:	off
+Dedup:		off
+RecordSize:	128K
+
+  small:
+          Speed   168 MB/s
+          Time    22 s
+          Ratio   1.00x
+  many1:
+          Speed   128 MB/s
+          Time    8 s
+          Ratio   1.12x
+  many2:
+          Speed   180 MB/s
+          Time    52 s
+          Ratio   1.09x
+  big:
+          Speed   195 MB/s
+          Time    159 s
+          Ratio   1.00x
+
+
+Compression:	zstd-fast
+Encryption:	off
+Dedup:		off
+RecordSize:	128K
+
+  small:
+          Speed   161 MB/s
+          Time    23 s
+          Ratio   1.02x
+  many1:
+          Speed   146 MB/s
+          Time    7 s
+          Ratio   2.01x
+  many2:
+          Speed   184 MB/s
+          Time    51 s
+          Ratio   1.10x
+  big:
+          Speed   197 MB/s
+          Time    157 s
+          Ratio   1.00x
+
+
+
+Compression:	off
+Encryption:	off
+Dedup:		on
+RecordSize:	128K
+
+  small:
+          Speed   281 MB/s
+          Time    13 s
+          Ratio   1.00x
+  many1:
+          Speed   438 MB/s
+          Time    2 s
+          Ratio   1.00x
+  many2:
+          Speed   180 MB/s
+          Time    52 s
+          Ratio   1.00x
+  big:
+          Speed   201 MB/s
+          Time    154 s
+          Ratio   1.00x
+
+
+Compression:	off
+Encryption:	off
+Dedup:		on
+RecordSize:	512
+
+  small:
+          Speed   399 MB/s
+          Time    9 s
+          Ratio   1.00x
+  many1:
+          Speed   438 MB/s
+          Time    2 s
+          Ratio   1.00x
+  many2:
+          Speed   194 MB/s
+          Time    17 s
+          Ratio   1.00x
+  big:
+          Speed   200 MB/s
+          Time    155 s
+          Ratio   1.00x
+
+
+Compression:	off
+Encryption:	off
+Dedup:		on
+RecordSize:	512
+
+  small:
+          Speed   245 MB/s
+          Time    15 s
+          Ratio   1.00x
+  many1:
+          Speed   312 MB/s
+          Time    3 s
+          Ratio   1.00x
+  many2:
+          Speed   184 MB/s
+          Time    51 s
+          Ratio   1.00x
+  big:
+          Speed   198 MB/s
+          Time    156 s
+          Ratio   1.00x
+
+
+Compression:	off
+Encryption:	off
+Dedup:		on
+RecordSize:	8K
+
+  small:
+          Speed   261 MB/s
+          Time    14 s
+          Ratio   1.00x
+  many1:
+          Speed   438 MB/s
+          Time    2 s
+          Ratio   1.00x
+  many2:
+          Speed   184 MB/s
+          Time    51 s
+          Ratio   1.00x
+  big:
+          Speed   197 MB/s
+          Time    157 s
+          Ratio   1.00x
+
+
+Compression:	off
+Encryption:	off
+Dedup:		on
+RecordSize:	64K
+
+  small:
+          Speed   230 MB/s
+          Time    16 s
+          Ratio   1.00x
+  many1:
+          Speed   312 MB/s
+          Time    3 s
+          Ratio   1.00x
+  many2:
+          Speed   187 MB/s
+          Time    50 s
+          Ratio   1.00x
+  big:
+          Speed   198 MB/s
+          Time    156 s
+          Ratio   1.00x
+
+
+Compression:	off
+Encryption:	off
+Dedup:		on
+RecordSize:	128K
+
+  small:
+          Speed   261 MB/s
+          Time    14 s
+          Ratio   1.00x
+  many1:
+          Speed   438 MB/s
+          Time    2 s
+          Ratio   1.00x
+  many2:
+          Speed   180 MB/s
+          Time    52 s
+          Ratio   1.00x
+  big:
+          Speed   201 MB/s
+          Time    154 s
+          Ratio   1.00x
+
+
+Compression:	off
+Encryption:	off
+Dedup:		on
+RecordSize:	1M
+
+  small:
+          Speed   245 MB/s
+          Time    15 s
+          Ratio   1.00x
+  many1:
+          Speed   438 MB/s
+          Time    2 s
+          Ratio   1.00x
+  many2:
+          Speed   180 MB/s
+          Time    52 s
+          Ratio   1.00x
+  big:
+          Speed   200 MB/s
+          Time    155 s
+          Ratio   1.00x
+
+
+Compression:	off
+Encryption:	off
+Dedup:		on
+RecordSize:	1M
+
+Compression:	off
+Encryption:	off
+Dedup:		on
+RecordSize:	128K
+
+  small:
+          Speed   381 MB/s
+          Time    5 s
+          Ratio   1.00x
+  many1:
+          Speed   438 MB/s
+          Time    2 s
+          Ratio   1.00x
+  many2:
+          Speed   177 MB/s
+          Time    53 s
+          Ratio   1.00x
+  big:
+          Speed   200 MB/s
+          Time    155 s
+          Ratio   1.00x
+
+
+Compression:	zstd-1
+Encryption:	off
+Dedup:		on
+RecordSize:	128K
+
+  small:
+          Speed   261 MB/s
+          Time    14 s
+          Ratio   1.00x
+  many1:
+          Speed   438 MB/s
+          Time    2 s
+          Ratio   1.00x
+  many2:
+          Speed   177 MB/s
+          Time    53 s
+          Ratio   1.00x
+  big:
+          Speed   201 MB/s
+          Time    154 s
+          Ratio   1.00x
+
+
+Compression:	zstd-5
+Encryption:	off
+Dedup:		on
+RecordSize:	128K
+
+  small:
+          Speed   245 MB/s
+          Time    15 s
+          Ratio   1.00x
+  many1:
+          Speed   312 MB/s
+          Time    3 s
+          Ratio   1.00x
+  many2:
+          Speed   184 MB/s
+          Time    51 s
+          Ratio   1.00x
+  big:
+          Speed   198 MB/s
+          Time    156 s
+          Ratio   1.00x
+
+
+Compression:	zstd-10
+Encryption:	off
+Dedup:		on
+RecordSize:	128K
+
+  small:
+          Speed   261 MB/s
+          Time    14 s
+          Ratio   1.00x
+  many1:
+          Speed   438 MB/s
+          Time    2 s
+          Ratio   1.00x
+  many2:
+          Speed   184 MB/s
+          Time    51 s
+          Ratio   1.00x
+  big:
+          Speed   198 MB/s
+          Time    156 s
+          Ratio   1.00x
+
+
+Compression:	zstd-19
+Encryption:	off
+Dedup:		on
+RecordSize:	128K
+
+  small:
+          Speed   261 MB/s
+          Time    14 s
+          Ratio   1.00x
+  many1:
+          Speed   438 MB/s
+          Time    2 s
+          Ratio   1.00x
+  many2:
+          Speed   180 MB/s
+          Time    52 s
+          Ratio   1.00x
+  big:
+          Speed   200 MB/s
+          Time    155 s
+          Ratio   1.00x
+
+

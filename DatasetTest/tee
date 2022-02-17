@@ -1,0 +1,21 @@
+Compression:	gzip-5
+Encryption:	off
+Dedup:		off
+RecordSize:	128K
+
+  small:
+          Speed   151 MB/s
+          Time    19 s
+          Ratio   1.01x
+  many1:
+          Speed   128 MB/s
+          Time    8 s
+          Ratio   2.08x
+  many2:
+          Speed   162 MB/s
+          Time    58 s
+          Ratio   1.10x
+  big:
+          Speed   161 MB/s
+          Time    192 s
+          Ratio   1.00x
