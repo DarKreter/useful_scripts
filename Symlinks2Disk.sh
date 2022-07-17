@@ -6,7 +6,7 @@ if [ "$EUID" -ne 0 ]
 fi
 
 
-ln -s /dev/disk/by-id/$1 /disks/$2
-ln -s /dev/disk/by-id/$1-part1 /disks/$21
-ln -s /dev/disk/by-id/$1-part9 /disks/$29
+ln -s $1 /disks/$2
+ln -s $1-part1 /disks/$21
+ln -s $1-part9 /disks/$29
 
