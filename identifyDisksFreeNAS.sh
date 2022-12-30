@@ -1,4 +1,6 @@
 #!/bin/sh
+# usefull to identify disks on FreeNAS
+
 echo
 echo $(basename $0) - Mounted Drives on $(hostname)
 cat /etc/version

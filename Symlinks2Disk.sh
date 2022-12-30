@@ -1,4 +1,6 @@
 #!/bin/bash
+# Create Symlinks in /disk with given name ($2) for given path to disk-id ($1)
+
 # Check if root
 if [ "$EUID" -ne 0 ]
         then echo "Please run as root"

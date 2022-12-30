@@ -1,6 +1,6 @@
 #!/bin/bash
-#This script moves all directories with name 'other' and place them(with everything inside) into new directory. 
-#In this case its '../NEW/'
+#This script moves everything inside IP55D directory to new one. 
+#In this case its 'Anime_dataset/'
 #It keeps the original catalog sctructre.
 #It also removes all copied files and all empty directories
 
