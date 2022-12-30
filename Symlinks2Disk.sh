@@ -7,6 +7,6 @@ fi
 
 
 ln -s $1 /disks/$2
-ln -s $1-part1 /disks/$21
-ln -s $1-part9 /disks/$29
+ln -s $1-part1 /disks/$2p1
+ln -s $1-part9 /disks/$2p9
 
