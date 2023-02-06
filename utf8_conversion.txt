@@ -1,0 +1,7 @@
+> enca -L pl subtitle.srt
+MS-Windows code page 1250
+
+> iconv -f "windows-1250" -t "UTF-8" subtitle.srt -o new.srt
+
+Run conversion on each file and save it with same name in upper directory but now in UTF-8:
+find . -name "*.srt" -execdir bash -c 'iconv -f "windows-1250" -t "UTF-8" "{}" -o ../"{}"' \;
